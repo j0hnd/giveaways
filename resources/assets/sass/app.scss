@@ -1,0 +1,26 @@
+
+// Fonts
+// @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap toggle
+@import "node_modules/bootstrap-toggle/css/bootstrap-toggle";
+
+// Font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// JQuery-UI
+@import 'node_modules/jquery-ui/themes/base/theme';
+@import 'node_modules/jquery-ui/themes/base/datepicker';
+@import 'node_modules/jquery-timepicker/jquery.timepicker';
+@import 'node_modules/select2/src/scss/core.scss';
+
+// alertify-js
+@import 'node_modules/alertify-js/themes/alertify.core';
+@import 'node_modules/alertify-js/themes/alertify.default';

@@ -1,0 +1,17 @@
+.login-box {
+    width: 360px;
+    margin: 7% auto;
+}
+
+.login-box-body {
+    background: #d2d6de;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.login-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}

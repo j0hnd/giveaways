@@ -1,0 +1,171 @@
+
+/* additional paddings */
+.padding-5 { padding: 5 }
+.padding-10 { padding: 10px }
+.padding-15 { padding: 15px }
+.padding-20 { padding: 20px }
+.padding-25 { padding: 25px }
+.padding-30 { padding: 30px }
+
+.padding-top5 { padding-top:5px !important; }
+.padding-top7 { padding-top:7px !important; }
+.padding-top10 { padding-top:10px !important; }
+.padding-top15 { padding-top:15px !important; }
+.padding-top17 { padding-top:17px !important; }
+.padding-top30 { padding-top:30px !important; }
+
+.padding-left5 { padding-left:5px !important; }
+.padding-left7 { padding-left:7px !important; }
+.padding-left10 { padding-left:10px !important; }
+.padding-left15 { padding-left:15px !important; }
+.padding-left17 { padding-left:17px !important; }
+.padding-left25 { padding-left:25px !important; }
+.padding-left30 { padding-left:30px !important; }
+
+.padding-right5 { padding-right:5px !important; }
+.padding-right7 { padding-right:7px !important; }
+.padding-right10 { padding-right:10px !important; }
+.padding-right15 { padding-right:15px !important; }
+.padding-right17 { padding-right:17px !important; }
+.padding-right25 { padding-right:25px !important; }
+.padding-right30 { padding-right:30px !important; }
+
+/* additional margins */
+.margin-5 { margin: 5 }
+.margin-10 { margin: 10px }
+.margin-15 { margin: 15px }
+.margin-20 { margin: 20px }
+.margin-25 { margin: 25px }
+.margin-30 { margin: 30px }
+
+.margin-top5 { margin-top: 5px !important; }
+.margin-top10 { margin-top: 10px !important; }
+.margin-top15 { margin-top: 15px !important; }
+.margin-top20 { margin-top: 20px !important; }
+.margin-top25 { margin-top: 25px !important; }
+.margin-top30 { margin-top: 30px !important; }
+
+.margin-right5 { margin-right: 5px !important; }
+.margin-right10 { margin-right: 10px !important; }
+.margin-right15 { margin-right: 15px !important; }
+.margin-right20 { margin-right: 20px !important; }
+.margin-right25 { margin-right: 25px !important; }
+.margin-right30 { margin-right: 30px !important; }
+
+.margin-left5 { margin-left: 5px !important; }
+.margin-left10 { margin-left: 10px !important; }
+.margin-left15 { margin-left: 15px !important; }
+.margin-left20 { margin-left: 20px !important; }
+.margin-left25 { margin-left: 25px !important; }
+.margin-left30 { margin-left: 30px !important; }
+
+.margin-bottom5 { margin-bottom: 5px !important; }
+.margin-bottom10 { margin-bottom: 10px !important; }
+.margin-bottom15 { margin-bottom: 15px !important; }
+.margin-bottom20 { margin-bottom: 20px !important; }
+.margin-bottom25 { margin-bottom: 25px !important; }
+.margin-bottom30 { margin-bottom: 30px !important; }
+
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.controls {
+    color: #ffffff;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle !important;
+}
+
+.table > thead > tr > th {
+    background-color: #a9a9a9;
+    color: #ffffff;
+    text-transform: uppercase !important;
+    vertical-align: middle !important;
+}
+
+#raffle-entries-container {
+    max-height: 500px;
+    overflow-x: scroll;
+}
+
+.closed {
+    text-decoration: line-through !important;
+}
+
+.bg-winner {
+    background-color: #efcd17 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ui-datepicker-div {
+    z-index: 9999999 !important;
+}
+
+.ui-timepicker-container {
+    z-index: 9999999 !important;
+}
+
+.super {
+    vertical-align: super;
+    font-size: 9px;
+    color: green;
+}
+
+table.table tr {
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.prize-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.bg-ended {
+    background-color: #e2e4e7;
+}
+
+.bg-pending {
+    background-color: #ffffff;
+}
+
+.legends {
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.duration-label {
+    width: 40px;
+    display: inline-block;
+}
+
+.duration-start {
+    color: green;
+}
+
+.duration-end {
+    color: red;
+}
+
+.panel {
+    border: none !important;
+}
+
+.table-hover tbody tr:not(.no-hover):hover td, .table-hover tbody tr:not(.no-hover):hover th {
+    background-color: #fef8cf;
+}
